@@ -7,6 +7,8 @@
 // The problems in Selection Sort is even in the best case
 // the time complexity will be 0(n2)
 
+// Use when you have to maintain Cost Of Swapping. For eg. Less Swap is require. Then choosing Selection Sort will be optimal. 
+
 class Solution1 {
     fun main() {
         val arr = intArrayOf(5, 3, 1, 4, 2)
